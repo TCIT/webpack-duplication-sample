@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const config  = require('./webpack.config');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const cleanWebpackPlugin = new CleanWebpackPlugin(['public/bundles'], {
+const cleanWebpackPlugin = new CleanWebpackPlugin(['bundles'], {
   root: path.join(__dirname),
   verbose: true,
   dry: false
