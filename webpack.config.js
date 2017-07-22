@@ -7,7 +7,7 @@ module.exports = {
   // resolveLoader: {root: path.join(__dirname, 'node_modules')},
   entry: ['./react/app'],
   output: {
-    path: path.join(__dirname, 'public/bundles/'),
+    path: path.join(__dirname, '/bundles/'),
     filename: '[name].[hash].bundle.js',
     publicPath: '/'
   },
